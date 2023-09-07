@@ -87,7 +87,7 @@ console.log(epify(" Juventus"));
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 const check3and7 = function (x) {
-  if (x % 3 || x % 7) {
+  if (x % 3 === 0 || x % 7 === 0) {
     return false;
   } else {
     return true;
